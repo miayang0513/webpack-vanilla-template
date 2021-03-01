@@ -1,1 +1,1 @@
-# easytell
+# Webpack-Vanilla-Template

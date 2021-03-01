@@ -1,0 +1,39 @@
+@import "./variables.scss";
+@import "./partials.scss";
+
+html,
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  background-color: map-get($map: $colors, $key: bg);
+}
+
+body {
+  overflow-x: hidden !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span,
+button {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  border: none;
+  background: none;
+}
+
+ul,
+li {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}

@@ -1,0 +1,17 @@
+header {
+  font-size: 40px;
+  i {
+    display: block;
+    mask-image: url("../../assets/icons/button-menu.svg");
+    background-color: black;
+    width: 25px;
+    height: 25px;
+    mask-size: contain;
+    mask-repeat: no-repeat;
+    mask-position: center;
+  }
+}
+
+footer {
+  color: red;
+}

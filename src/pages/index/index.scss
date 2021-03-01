@@ -1,0 +1,15 @@
+@import "../../assets/style/main.scss";
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  column-gap: 30px;
+}
+
+.background-image {
+  background-image: url("../../assets/images/fake-image.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
